@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div style="display: flex; justify-content: center;">
+   <img src=" https://drive.google.com/thumbnail?id=16blmn8-MjzOVluocXG-cvYjLTH9gOIfe"  align="center" width="200" height="180" style="display: block"/>
+
+  </div>
+
+
+
+<div class="amp">
+	  <div class="row">
+
+	<div class="col">
+    <h2 style="color: azure; justify-content: center; color: darkorange">Shreya Teams Sentiment Analyzer</h2>
+<h2 class="amp" style="color: azure;justify-content: center;">How did the attendees feel during the meet? </h2>
+    <h2 style="color: azure;justify-content: center;"> Let's checkout the sentiments of the attendees!</h2>
+
+    <img src="data:image/png;base64, {{ plot_url }}" class="amp" alt="Image Placeholder">
+</div>
+<div class="amp">
+	<table class="amp">
+		<thead>&nbsp;</thead>
+  	<thead>
+    <tr>
+      <th scope="col">
+    <h1 style="color: lightgoldenrodyellow"> Ratio of Happy people in the meet: {{ smileindex }}</h1>
+    </th>
+	</tr>
+	</thead>
+	<thead>
+    <tr>
+      <th scope="col">
+    <h1 style="color: lightgoldenrodyellow">How the posture of the attendees was: {{ posture }}
+    </h1>
+    </th>
+	</tr>
+	</thead>
+{% endblock %}

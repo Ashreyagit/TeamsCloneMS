@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block body %}
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+     <div class="container">
+   <img src=" https://drive.google.com/thumbnail?id=1jZDmmrz6M6GYUGuslBlczrSrKF3NeWro"  align="middle" width="400" height="200"/>
+
+  </div>
+  <div class="container">
+    <img src=" https://drive.google.com/thumbnail?id=1Uamkk4eGLYQrjwhdyShkPNZkVE3KG2xD" align="middle" width="400" height="200"/>
+
+  </div>
+
+    <div class="container">
+    <img src=" https://drive.google.com/thumbnail?id=1NDb44lAAKvBAZNvb2zTkL4QYM2v1W8RR" align="middle" width="400" height="200"/>
+
+  </div>
+
+    <h1 class="amp" style="background-color:darkorange; color: azure;font-size: 39px;">LET'S ANALYZE THE SENTIMENT OF THE MEET ATTENDEES!</h1>
+ <div style="display: flex; justify-content: center;">
+   <img src=" https://drive.google.com/thumbnail?id=16blmn8-MjzOVluocXG-cvYjLTH9gOIfe"  align="center" width="200" height="180" style="display: block"/>
+
+  </div>
+
+
+
+<div class="amp">
+	  <div class="amp">
+
+	<div class="amp">
+    <form action="/predict" id="upload-file" method="post" enctype="multipart/form-data">
+
+        <label for="videoUpload" class="upload-label">
+            <h3>Upload the recording of the meet to be analyzed in .mp4 format</h3>
+            <h4> Please wait after submitting the video. It may take 5 to 10 minutes for the analysis</h4>
+        </label>
+
+        <input type="file" name="file" id="videoUpload" required="True">
+
+
+    	<input type="submit" class="btn btn-primary btn-lg" value="Submit">
+    </form>
+	</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+{% endblock %}
