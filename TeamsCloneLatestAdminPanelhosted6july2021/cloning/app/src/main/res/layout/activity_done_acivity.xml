@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--design for activity_done-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="2dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:padding="5dp"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:text="@string/meeting_heading_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_margin="5dp"
+            android:textStyle="normal"
+            android:textSize="13sp"
+            android:text="@string/dialog_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+            <EditText
+                android:layout_margin="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:padding="5dp"
+                android:id="@+id/meeting_title"
+                android:hint="@string/metting_title"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+
+                        >
+
+                    <ImageView
+
+                        android:layout_margin="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_baseline_videocam_24"
+                        android:layout_marginTop="8dp"
+                        android:padding="4dp"/>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_video_on"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2"
+                        android:textSize="18sp" />
+
+
+                    </LinearLayout>
+                <Switch
+                    android:layout_gravity="center"
+                    android:id="@+id/switch_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="16dp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/share_code"
+                    android:layout_margin="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_share_24"
+                    android:layout_marginTop="8dp"
+                    android:padding="4dp"/>
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/meeting_id"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_margin="5dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="@string/meeting_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_share_24"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:padding="3dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background_btn_share"
+                    android:id="@+id/sharelink_btn"
+                    android:textSize="15sp"
+                    android:text="Share"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp" />
+                <Button
+
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textAllCaps="false"
+                    android:padding="3dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/background_btn"
+                    android:id="@+id/continue_btn"
+                    android:textSize="15sp"
+                    android:text="Continue"
+                    android:layout_width="120dp"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

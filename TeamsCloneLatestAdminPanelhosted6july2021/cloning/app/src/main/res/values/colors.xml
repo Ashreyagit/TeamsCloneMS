@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#550066</color>
+    <color name="colorPrimaryDark">#FF8000</color>
+    <color name="DarkcolorPrimary">#000000</color>
+    <color name="DarkcolorPrimaryDark">#000000</color>
+    <color name="colorAccent">#4B0082</color>
+    <color name="colorAccent21">#FF3F80</color>
+    <color name="PrimaryTextcolor">#000000</color>
+    <color name="cardbgcolor">#FFFFFF</color>
+    <color name="darkcardbgcolor">#000000</color>
+    <color name="bgcolor">#FFFFFF</color>
+    <color name="CardColor">#FFFFFF</color>
+    <color name="CardColorDark">#000000</color>
+    <!--dark theme color-->
+    <color name="colorStatusBarDark">#0F1D24</color>
+    <color name="colorToolbarDark">#222D36</color>
+    <color name="colorBackgroundDark">#101D24</color>
+    <!--Common colors-->
+    <color name="bg_splash">#FFFFFF</color>
+    <color name="page_bg">#F7F5F6</color>
+    <color name="page_bg_dim">#FAFAFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#F44336</color>
+    <color name="transparent_black">#99000000</color>
+    <color name="transparent_white">#AAFFFFFF</color>
+    <color name="green">#00BF9A</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF9800</color>
+    <color name="gray">#CFD8DC</color>
+    <color name="purple">#7A1EA1</color>
+    <color name="imgPlaceholder">#ffffff</color>
+    <color name="fullTransparent">#00000000</color>
+    <color name="hint_color">#C1C7DE</color>
+    <color name="dark_blue">#1A237E</color>
+    <color name="light_green">#69F0AE</color>
+    <color name="light_gray">#E0E0E0</color>
+    <color name="default_background">#EEEEEE</color>
+    <color name="sheet_bg">#FBE9E7</color>
+    <color name="pink">#FF3F80</color>
+    <color name="lime_green">#32CD32</color>
+
+    <color name="trans">#80000000</color>
+    <color name="tran">#50000000</color>
+    <color name="detailsToolbar">#55000000</color>
+
+    <color name="notification_card_bg">#EFEFEF</color>
+
+    <color name="title_color">#818181</color>
+    <color name="toolbar_boarder">#EA28292E</color>
+    <color name="placeholder_bg">#E0252121</color>
+    <color name="SecondryTextcolor">#838383</color>
+    <color name="colorRipple">#BCBEC1</color>
+    <color name="layout">#003A3737</color>
+    <color name="text_color">#32CD32</color>
+
+
+    <!-- colors for button style -->
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+
+    <!-- colors for tab and screen text -->
+
+    <color name="tab_indicator_gray">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+</resources>

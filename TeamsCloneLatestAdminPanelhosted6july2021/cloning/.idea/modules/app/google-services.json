@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40632902479",
+    "firebase_url": "https://quickmeeting-bb581.firebaseio.com",
+    "project_id": "quickmeeting-bb581",
+    "storage_bucket": "quickmeeting-bb581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40632902479:android:4f8638f7ab6446975fdb3a",
+        "android_client_info": {
+          "package_name": "in.codershop.quickmeeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40632902479-pvaig7bdqakhdit9tjrtealj8gao4b93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.codershop.quickmeeting",
+            "certificate_hash": "5d5a2b074db8887e38009af413fa125a84936d64"
+          }
+        },
+        {
+          "client_id": "40632902479-2f2p122kvues7d2mfvf1h8ec697trors.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeZawlFg940qNcnONGJpqi97zH8sxKvpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40632902479-2f2p122kvues7d2mfvf1h8ec697trors.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
